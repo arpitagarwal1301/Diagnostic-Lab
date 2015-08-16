@@ -1,0 +1,2 @@
+# diagnosticlab
+Java project
