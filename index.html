@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Diagnostic-lab by arpitagarwal1301</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Diagnostic-lab</h1>
+      <h2 class="project-tagline">Java project</h2>
+      <a href="https://github.com/arpitagarwal1301/Diagnostic-Lab" class="btn">View on GitHub</a>
+      <a href="https://github.com/arpitagarwal1301/Diagnostic-Lab/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/arpitagarwal1301/Diagnostic-Lab/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <p>A Project Report</p>
+
+<p>On</p>
+
+<p>Medical Diagnostic Lab
+Management</p>
+
+<p>Submitted for the partial fulfillment of
+BACHELOR OF TECHNOLOGY</p>
+
+<p>ACKNOWLEDGEMENT</p>
+
+<p>We express deep sense of gratitude and indebtness to out trainer sir Mr. Amit Jayaswal and our guide Mr Gaurav Nirwal, under whose guidance, valuable suggestions, constant encouragement and kind supervision, the present project was carried out.</p>
+
+<p>We also wish to express our sincere thanks to our friends who helped directly or indirectly by giving their valuable suggestions.</p>
+
+<p>CONTENTS</p>
+
+<p>1).Introduction
+o   Purpose
+o   Scope
+o   Definitions, Acronyms and Abbreviations
+o   References
+o   Overview </p>
+
+<p>2) General description
+o   Product perspective
+o   Product function
+o   User characteristics
+o   General constraints</p>
+
+<p>3) Functional Requirements
+o   Forms for adding &amp; viewing/editing 
+o   Reports </p>
+
+<p>4) Preliminary Design
+4.1)    Context Diagram
+4.2)      DFD 0 Level
+4.3)    Database Design</p>
+
+<p>5) Hardware Requirement</p>
+
+<p>6) Software Requirement</p>
+
+<ol>
+<li>INTRODUCTION</li>
+</ol>
+
+<p>1.1 Purpose:-<br>
+In our daily life it is a General Practice to go Doctor’s clinic and generally doctor Prescribe some Medical Test. Then we go to a Medical Lab Diagnostic Center.</p>
+
+<p>Medical Lab Diagnostic Center is a place where all kind of medical test conducted. Medical Lab Diagnostic Center always feels requirement of a Software system which help in keeping records and reporting.</p>
+
+<p>Thus Medical Lab Diagnostic Center Management system is very helpful   to overcome the general problem.</p>
+
+<p>1.2 Scope:-
+ Maintaining the masters like test department, category, Group, Test name.
+ Maintaining the Patient Record.
+ Maintaining Patient Result.
+ Maintaining Patient Report.
+ Maintaining commission of Doctor.
+ Maintaining report of doctor’s commission.</p>
+
+<ol>
+<li>General Description</li>
+</ol>
+
+<p>2.1 Project perspective
+The initially this module is proposed to be developed as an independent module. It is proposed to link it with the patient/doctor evaluation module, commission information system, and report generation system in future.</p>
+
+<p>2.2 Product Functions
+Some of the important functions proposed to be developed are:
+• Maintaining the masters like test department, category, Group, Test name.</p>
+
+<p>• Maintaining the Patient Record.</p>
+
+<p>• Maintaining Lab Master Data
+• Maintaining Doctor Master Data
+         Maintaining Test Department Master Data</p>
+
+<p>2.3 User Characteristics
+The main users of the system are Administrator, Patient, and Doctor.
+System Administrator: The administrator is responsible for managing database, user management, deletion (which is not allowed to other type of users). An administrator has all rights in every module.
+Patient: The Faculty can view all the information (Test Details, Test rate, Department details etc). The faculty can also receive the the test report.
+Doctor:-The doctor send the patient to the diagnostic center and receive the commission from the Lab.. </p>
+
+<p>2.4 General constraints
+• Should Run on the Windows XP/Windows 2000 Platform.
+• Number of Test should not exceed the capacity of the maximum capacity..
+• Test availability.</p>
+
+<p>3.Functional Requirements</p>
+
+<ol>
+<li> Classification of medical test based on
+(i) Department
+(ii)    Category
+(iii)   Group
+(iv)    Test Name</li>
+<li><p>Administrative Login</p></li>
+<li><p>Operator Main</p></li>
+<li>  Adding the Department.</li>
+<li> Adding Category.</li>
+<li> Adding Group.</li>
+<li> Adding Test</li>
+<li> Adding Doctor and doctor’s commission</li>
+<li> Patient Registration.</li>
+<li> Patient Result Inserting.</li>
+<li>Patient Report Generation</li>
+<li>Doctor’s Commission Report</li>
+<li>Search Patient respect to Patient Id, Patient Name, and date.</li>
+<li>Search Doctor respect to doctor doctor_id,doctor_Name,Comission Per</li>
+<li>Remove Doctor.</li>
+<li>Remove Patient.</li>
+</ol>
+
+<p>3.1. The Form which are made in the project are as follows:-</p>
+
+<p>Login form:-
+                                  This form is used for administrative login. The user enters the username and password, if username and password matched with the database then Administrator Home Page will show. </p>
+
+<p>(2)Administrator Home:-
+                                        This page is used for nagivation purpose. If we click on any button then particular form will display.</p>
+
+<p>(3)Add Department:- 
+                                  When user enters the Department name and click on ok button then department will be added in the database.</p>
+
+<p>(4) Add Category:-
+                               When user selects any department from the list and enter the category then category will be inserted in selected department.</p>
+
+<p>(5) Add Group:-
+                          When user selects department and category then enter the group name then group will be added in category.</p>
+
+<p>(5)Add Test:-
+                      When user select department, category, test group then enter the test-name, test-rate, test normal value and click on ok button then add will add in database in particular category.</p>
+
+<p>(6)Add Doctor:-
+                        This form is used for doctor master entries.User enter doctor name and commission Percentage and click on ok button ,then doctor will save in masters.</p>
+
+<p>(7)Patient Registration:-
+                                        User fill patient’s personal information, test information and select referred doctor and click on submit button then patient becomes registered.</p>
+
+<p>8) Report by Doctor:
+            This page is used to accept the result of the test conducted on the patient. It is provided by the doctor.</p>
+
+<p>(9)Patient Report:-
+                            This page is used to submit the Patient ID and name whose report is to be seen.</p>
+
+<p>This page displays the report of the patient whose ID and name was submitted in the previous page.</p>
+
+<p>(10)Doctor Commission Report:-
+                                               This page will show the report of doctor’s list with their name, commission per, commission amount.</p>
+
+<p>11) Modify Fields:
+            User can change (edit) the names of existing departments, doctors using this page. It also lets the user to create new account for operating.</p>
+
+<ol>
+<li>Preliminary Design</li>
+</ol>
+
+<p>4.1 Context Diagram</p>
+
+<p>4.2  DFD 0 Level:-</p>
+
+<p>4.3 Database</p>
+
+<ol>
+<li>Login Table</li>
+</ol>
+
+<p>Sr.No.  Field Name
+    Data Type   Size    Constraint  Description
+1   username    varchar2    30<br>
+2   password    varchar2    30      </p>
+
+<ol>
+<li>Deptartment Table</li>
+</ol>
+
+<p>Sr.No.  Field Name
+    Data Type   Size    Constraint  Description
+1   Dept_ID Number  10  PK<br>
+2   Dept_Name   Varchar2    30      </p>
+
+<p>3.AddCategory Table</p>
+
+<p>Sr.No.  Field Name  Data Type   Size    Constraint  Description
+1   Cat_ID  Number  10  PK<br>
+2   Dept_ID Number  10  Fk<br>
+3   Cat_Name    Varchar2    25      </p>
+
+<ol>
+<li>AddGroup Table</li>
+</ol>
+
+<p>Sr.No.  Field Name  Data Type   Size    Constraint  Description
+1   Group_ID    Number  10  PK<br>
+2   Cat_id  Number  10  FK<br>
+3   Dept_ID Number  10  FK<br>
+4   Group_Name  Varchar2    25      </p>
+
+<p>5 AddDoctor Table   </p>
+
+<p>Sr.No.  Field Name  Data Type   Size    Constraint  Description
+1   doc_id  Number  10  PK<br>
+2   doc_name    Varchar2    30</p>
+
+<p>3   com_per Number  3<br>
+4.  com_amt     5       </p>
+
+<ol>
+<li>AddTest Table </li>
+</ol>
+
+<p>Sr.No.  Field Name  Data Type   Size    Constraint  Description
+1   Test_ID Number  10  PK<br>
+2   Group_ID    Number  10  FK<br>
+3   Cat_id  Number  10  FK<br>
+4   Dept_ID Number  10  FK<br>
+5   Test_Rate   Number  7,2<br>
+6   Normal_Value    Number  5,2     Ex-proteen 8.9
+7   Test_Name   Varchar2    50      </p>
+
+<p>7 .PatientReg Table</p>
+
+<p>Sr.No.  Field Name  Data Type   Size    Constraint  Description
+1   Patient_ID  Number  10  PK<br>
+2   Registration_Date   Date<br>
+3   First_Name  Varchar2    50<br>
+4   Last_Name   Varchar2    30<br>
+5   address Varchar2    200<br>
+6   Sex Varchar2    5       Male/Female
+7   Age Varchar2    2<br>
+8   Contact No. Varchar2    10<br>
+9   Test_ID Number  10  FK<br>
+10  Group_ID    Number  10  FK<br>
+11  Cat_id  Number  10  FK<br>
+12  Dept_ID Number  10  FK  </p>
+
+<ol>
+<li>ReportByDoctor Table</li>
+</ol>
+
+<p>Sr.No.  Field Name  Data Type   Size    Constraint  Description
+1   Paitent_ID  Number  10  FK<br>
+2   patient_name    Varchar2    50<br>
+3   test_result varchar2    50      </p>
+
+<ol>
+<li>Hardware Requirement:    Processor       :   Any Pentium Processor   RAM                  :  Minimum 64 MB 
+It is the minimum requirement, but here user cannot store data at another disk (because database product does not allow changing diskette).</li>
+</ol>
+
+<p>In case of large volume of data, that general in commercial organization, following hardware configuration is recommended. Except the problem handling, it will possibly faster processing as a result offence of job.</p>
+
+<ol>
+<li>Software Requirement:
+OS          :   Windows-2000/XP/7 or Unix/Linux
+JAVA            :   J2SDK 1.5.0 or Higher   DATABASE        :   Oracle 8i or Higher</li>
+</ol>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/arpitagarwal1301/Diagnostic-Lab">Diagnostic-lab</a> is maintained by <a href="https://github.com/arpitagarwal1301">arpitagarwal1301</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
